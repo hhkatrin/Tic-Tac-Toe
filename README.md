@@ -7,7 +7,7 @@ The project includes multiple game modes, a round system, and an AI opponent bas
 
 ## Live Demo
 
-https://hhkatrin.github.io/tic-tac-toe/
+[https://hhkatrin.github.io/tic-tac-toe/](https://hhkatrin.github.io/Tic-Tac-Toe/)
 
 ---
 
