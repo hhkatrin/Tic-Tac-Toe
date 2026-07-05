@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe NEXT LEVEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎀 Tic Tac Toe NEXT LEVEL</h1>
+
+<div id="status">Start...</div>
+<div id="roundInfo"></div>
+
+<div class="board" id="board"></div>
+
+<div id="startScreen" class="overlay">
+  <div class="panel">
+    <h2>🎮 Start</h2>
+
+    <label>Runden:</label>
+    <input id="roundsInput" type="number" value="3" min="1" max="20">
+
+    <label>Modus:</label>
+    <select id="modeSelect">
+      <option value="pvp">2 Player</option>
+      <option value="cpu">VS AI (UNBESIEGBAR)</option>
+    </select>
+
+    <button id="startBtn">Start 🚀</button>
+  </div>
+</div>
+
+<div id="endScreen" class="overlay" style="display:none;">
+  <div class="panel">
+    <h2 id="endTitle"></h2>
+    <p id="endScore"></p>
+    <p id="motivation"></p>
+    <button onclick="location.reload()">Restart</button>
+  </div>
+</div>
+
+<audio id="clickSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a5b2b2.mp3"></audio>
+<audio id="winSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_5c1d2d7f2d.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
