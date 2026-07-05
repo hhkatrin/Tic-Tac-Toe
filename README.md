@@ -1,4 +1,4 @@
-# Tic Tac Toe Pro
+# Tic Tac Toe
 
 A web-based Tic Tac Toe game built with HTML, CSS, and JavaScript.  
 The project includes multiple game modes, a round system, and an AI opponent based on the Minimax algorithm.
@@ -42,10 +42,6 @@ https://hhkatrin.github.io/tic-tac-toe/
 
 The computer opponent uses the Minimax algorithm to evaluate all possible moves and choose the optimal one.  
 This makes the AI unbeatable when playing optimally.
-
----
-
-## Project Structure
 
 ---
 
